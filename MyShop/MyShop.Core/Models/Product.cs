@@ -20,7 +20,7 @@ namespace MyShop.Core.Models
         public string Category { get; set; }
         public string Image { get; set; }
 
-        Product()
+        public Product()
         {
             this.Id = Guid.NewGuid().ToString();
         }
